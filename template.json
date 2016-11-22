@@ -1,0 +1,13 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "a simple Linux EC2 instance.",
+    "Metadata": {},
+    "Parameters": {
+        "ServerType": {
+            "Ref": {"URI": "server-type"}
+        }
+    },
+    "Mappings": {},
+    "Resources": {},
+    "Outputs": {}
+}

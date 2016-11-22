@@ -1,0 +1,29 @@
+{
+  "name": "compiler",
+  "version": "0.1.0",
+  "description": "AWS Cloud Formation Component Compiler",
+  "main": "compiler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/puterstructions/cf-compiler.git"
+  },
+  "author": "Mike Sandman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puterstructions/cf-compiler/issues"
+  },
+  "homepage": "https://github.com/puterstructions/cf-compiler#readme",
+  "dependencies": {
+    "JSONStream": "^1.1.4",
+    "event-stream": "^3.3.4",
+    "format-json-stream": "^0.1.5",
+    "fs": "0.0.1-security",
+    "jsonfile": "^2.3.1",
+    "jsonpath": "^0.2.7",
+    "winston": "^2.2.0",
+    "yargs": "^5.0.0"
+  }
+}
